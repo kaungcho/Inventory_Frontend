@@ -1,0 +1,59 @@
+.address,.contact{
+    width: 400px;
+}
+.address h6,.contact .contact-text{
+    font-size: 18px;
+    font-weight: 800;
+}
+.address p,.contact p{
+    font-weight: 600;
+}
+.find-us-text,.find-us-icon{
+    width: 200px;
+}
+.find-us-text h6{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+}
+.go-to-google{
+    border: 0;
+    border-radius: 5px;
+    background-color: #3CA099;
+    padding: 7px 20px 7px 20px;
+    font-weight: bold;
+    color: white;
+}
+.fa-location-dot {
+    font-size: 130px;
+    color: rgba(255, 0, 0, 0.514);
+}
+.get-in-touch{
+    width: 500px;
+}
+.get-in-touch h1{
+    color: #F9A819;
+    font-weight: 800;
+}
+.get-in-touch p{
+    width: 300px;
+    font-weight: 600;
+}
+.get-in-touch input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1;
+    border-radius: 0;
+    border-color: #F9A819;
+}
+.get-in-touch textarea{
+    border-color: #F9A819;
+    border-radius: 0;
+}
+.get-in-touch button{
+    border-radius: 0;
+    background-color: #F9A819;
+    color: white;
+    font-weight: 600;
+}

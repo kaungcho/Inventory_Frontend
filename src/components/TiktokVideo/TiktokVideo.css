@@ -1,0 +1,13 @@
+.tik-tok h3{
+    font-weight: 900;
+}
+.footer{
+    width: 100%;
+    padding: 0px;
+    background-color: #3CA099;
+}
+.footer p{
+    padding: 60px 60px 30px 80px;
+    font-weight: 700;
+    color: white;
+}

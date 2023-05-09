@@ -1,0 +1,76 @@
+.welcome-text{
+    color: #3AA09A;
+}
+.welcome-div{
+    height: 0;
+}
+.welcome-div .welcome-main{
+    font-size: 80px;
+    line-height: 1.2;
+    margin-top: 150px;
+    z-index: 2;
+    position: relative;
+    font-weight: bolder;
+}
+.circle1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #F9A719;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(-64px, -419px);
+}
+.circle2{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: #3AA09A;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(250px, -370px);
+}
+.circle3{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    background-color: #3AA09A;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(-40px, -371px);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 100px;
+}
+.sign-in-with h6 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h6 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .login-btn{
+    width: 100%;
+    background-color: #F9A719;
+ }
+ .login-btn:hover{
+    background-color: #f6b951;
+ }
+ .card-body input{
+    border: 1px solid #f6b951;
+ }
+ .card{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ }
+ .login-signup-div .sign-up,.login-signup-div .sign-up a,.login-signup-div .forget-password{
+    font-size: 13px;
+ }

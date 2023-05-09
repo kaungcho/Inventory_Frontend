@@ -1,0 +1,96 @@
+.combo-offer-text{
+    text-align: center;
+    font-weight: bold;
+    color: #F9A819;
+}
+.combo-offer-images{
+    margin-top: 80px;
+}
+.combo-offer-image-1 img,.combo-offer-image-2 img{
+    width: 200px;
+    height: 200px;
+}
+.combo-offer-image-connection{
+    width: 100px;
+    text-align: center;
+}
+.fa-plus{
+    font-size: 30px;
+}
+.all-prodcuts {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    display: inline;
+}
+.all-prodcuts p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.fa-arrow-right-long{
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.limited-time{
+    background-color: #3CA099;
+    display: inline;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.title{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #3ca09984;
+    font-weight: bolder;
+}
+.combo-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.sale-price{
+    font-size: 60px;
+    font-weight: 800;
+    color: #3CA099;
+}
+.regular-price{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3ca09978;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+.description{
+    font-weight: 600;
+    width: 500px;
+}
+.btn-and-icons{
+    width: 500px;
+}
+.btn-and-icons button{
+    background-color: #F9A819;
+    border-radius: 50px;
+    border: 0;
+    padding: 5px 30px 5px 30px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 6px 0px grey;
+    margin-bottom: 20px;
+}
+.fa-heart{
+    font-size: 30px;
+    color: #3CA099;
+    margin-left: 20px;
+
+}
+.fa-bag-shopping{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #3CA099;
+}

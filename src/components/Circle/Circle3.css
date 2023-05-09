@@ -1,0 +1,37 @@
+
+.circle-3 h2{
+    color: white;
+    font-size: 50px;
+}
+.circle-3 hr{
+    width: 80%;
+    background-color: black;
+    height: 8px;
+    margin: 0 auto;
+    border: none;
+    opacity: 1;
+    border-radius: 3px;
+}
+.circle-3 ul li {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.circle-3 ul{
+    margin-top: 50px;
+}
+.what-we-do{
+    position: absolute;
+    right: 0;
+    transform : translate(calc(100% - -80px), 316px);
+}
+.what-we-do .p-1{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 0;
+}
+.what-we-do .p-2{
+    font-size: 70px;
+    font-weight: bold;
+    color: #F9A719;
+    line-height: 1;
+}

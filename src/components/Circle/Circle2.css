@@ -1,0 +1,31 @@
+.about-us{
+    position: absolute;
+    top: 200px;
+    right: calc(100% + 80px);
+}
+.about-us h3{
+    font-weight: bold;
+    font-size: 80px;
+}
+.about-us h1{
+    font-weight: bold;
+    font-size: 140px;
+    margin-left: 15px;
+    line-height: 0.5;
+    color: #3CA099;
+}
+.about-us h4{
+    background-color: #3CA099;
+    display: inline;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 150px;
+    margin-left: calc(100% - 200px);
+    line-height: 3;
+    color: white;
+}
+.circle-2 p {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}

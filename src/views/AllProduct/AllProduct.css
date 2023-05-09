@@ -1,0 +1,40 @@
+.search-input{
+    width: 50%;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.213);
+    border: 0;
+    outline: none;
+
+}
+.search-input::placeholder{
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+    color: rgba(128, 128, 128, 0.737);
+}
+.all-product-list-div .single-product-div .card{
+    background-color: rgba(128, 128, 128, 0.101);
+    border: 0;
+    box-shadow: none;
+}
+.all-product-list-div .single-product-div .card img{
+    width: 150px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.popular{
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #F9A819;
+    color: white;
+    font-weight: bold;
+}
+.product-title{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.product-price{
+    font-weight: 800;
+}

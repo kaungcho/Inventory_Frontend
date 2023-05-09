@@ -1,0 +1,15 @@
+.navbar-nav .nav-link {
+    font-weight: bolder;
+    color: black;
+}
+.navbar-nav .nav-link:hover {
+    font-weight: bolder;
+    color: #F9A719!important;
+}
+.navbar-nav .active {
+    font-weight: bolder;
+    color: #F9A719!important;
+}
+.navbar-nav-2{
+    margin-left: auto;
+}
