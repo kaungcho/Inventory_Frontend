@@ -1,0 +1,32 @@
+.sidebar{
+    height: 100vh;
+}
+.sidebar-nav .nav-link{
+    font-weight: bold;
+}
+.sidebar-nav .nav-group.show{
+    background-color: #FFFFFF;
+}
+.sidebar-nav .nav-group.show .nav-group-toggle {
+    color: black;
+}
+.sidebar-footer{
+    background-color: #FFFFFF;
+}
+.sidebar-footer a{
+    text-decoration: none;
+    color: #3AA09A;
+    font-weight: bold;
+}
+.login{
+    margin-left: 1.5rem;
+}
+.sidebar-footer a:hover{
+    color: #F9A719;
+}
+.sidebar-nav .nav-link{
+    margin-left: 2em;
+}
+.sidebar-nav .nav-group-toggle::after {
+    margin-left: 0!important;
+}
