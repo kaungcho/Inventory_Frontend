@@ -1,0 +1,107 @@
+.shopping-cart-text{
+    color: #3AA09A;
+    font-weight: 700;
+    font-size: 40px;
+}
+.product-image {
+    width: 200px;
+}
+.product-image img{
+    width: 150px;
+    height: 150px;
+}
+.prdocut-detail h5{
+    font-weight: 700;
+}
+.product-qty{
+    border: 2px solid #F9A719;
+    width: 110px;
+    border-radius: 5px;
+    height: 40px;
+}
+.product-qty .fa-minus,.product-qty .fa-plus{
+    font-size: 16px;
+    padding: 10px 15px 5px 15px;
+}
+.prdocut-detail .product-qty p{
+    font-size: 18px;
+    padding-top: 5px;
+}
+.product-action{
+    padding-top: 50px;
+    text-align: center;
+}
+.product-action p{
+    font-weight: 800;
+    font-size: 18px;
+}
+.product-action .fa-trash-can{
+    font-size: 18px;
+    cursor: pointer;
+}
+.product-action .fa-trash-can:hover{
+    color: rgba(255, 0, 0, 0.586)!important;
+}
+.prdocut-detail p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.product-total {
+   text-align: right; 
+}
+.product-total h6{
+    font-size: 13px;
+    font-weight: bold;
+}
+.checkout-div button {
+    padding: 5px 20px 5px 20px;
+    background-color: #F9A719;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+.image-name{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.image-name img{
+    width: 100px;
+    height: 100px;
+}
+.image-name h6{
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.phone h6{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.phone p{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.email h6{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.email p{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.deli-address h6{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.deli-address p{
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 13px;
+}

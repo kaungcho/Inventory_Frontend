@@ -38,3 +38,6 @@
 .product-price{
     font-weight: 800;
 }
+.accordion-item{
+    border: 0;
+}
