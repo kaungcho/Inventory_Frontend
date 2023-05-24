@@ -10,9 +10,15 @@ import { useNavigate } from "react-router-dom";
 
 const SingleProduct = () => {
   const navigate = useNavigate();
+  const goToAddToCart = () => {
+    navigate("/add-to-cart");
+  };
+
   const goToSingleProduct = () => {
     navigate("/single-product");
   };
+
+  
 
   return (
     <>
@@ -52,7 +58,7 @@ const SingleProduct = () => {
               buds.
             </p>
             <div className="add-to-cart-div d-flex mt-5">
-              <button type="button" className="add-to-cart">
+              <button type="button" className="add-to-cart" onClick={goToAddToCart}>
                 Add to Bag
               </button>
               <div className="icon ps-5">
