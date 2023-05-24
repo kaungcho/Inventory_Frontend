@@ -7,8 +7,14 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from 'react-router-dom';
 
 const ComboOffer = props => {
+    const navigate = useNavigate();
+    const goToAllProduct = () => {
+        navigate('/all-products');
+      }
+
     return (
         <>
             <div className="container mt-5 pt-5 mb-5">
@@ -28,7 +34,7 @@ const ComboOffer = props => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <a href="#" className="all-prodcuts d-flex justify-content-end">
+                        <a href="" className="all-prodcuts d-flex justify-content-end" onClick={goToAllProduct}>
                             <p>Go to all Products</p>
                             <FontAwesomeIcon icon={faArrowRightLong} />
                         </a>

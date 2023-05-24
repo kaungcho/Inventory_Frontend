@@ -1,6 +1,7 @@
 import React from "react";
 import './AllProduct.css';
 import food1 from '../../images/food1.png'
+import Navbar from "../../components/Navbar/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +15,8 @@ const AllProduct = () => {
 
     return (
         <>
-            <div className="container">
+        <Navbar />
+            <div className="container mt-3" id="product">
                 <div className="d-flex justify-content-center">
                     <input type="text" placeholder="what are you looking for today? " className="form-control search-input" />
                 </div>

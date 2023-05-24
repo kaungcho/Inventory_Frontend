@@ -8,6 +8,7 @@ import {
   CNavLink,
 } from "@coreui/react";
 import { useState } from "react";
+import logo from "../../images/logo.ico";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
     <>
       <CNavbar expand="lg" colorScheme="light" className="bg-light shadow p-3">
         <CContainer fluid>
-          <CNavbarBrand href="#">TENCES ECommerce Logo</CNavbarBrand>
+          <CNavbarBrand href="#"> <img src={logo} className="logo"/> Tenes </CNavbarBrand>
           <CNavbarToggler
             aria-label="Toggle navigation"
             aria-expanded={visible}
