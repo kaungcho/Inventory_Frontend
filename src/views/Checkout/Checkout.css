@@ -1,0 +1,143 @@
+.checkout-text{
+    color: #3AA09A;
+    font-weight: 700;
+    font-size: 40px;
+}
+.deli-detail-text,.payment-text,.order-text{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.custom-input{
+    border-radius: 0;
+    border: 2px solid #F9A719;
+}
+.custom-input-2{
+    border-radius: 0;
+    border: 2px solid #3AA09A;
+}
+.custom-label{
+    font-weight: 700;
+    font-size: 13px;
+}
+.custom-checkbox{
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #cac8c8;
+}
+.master-card img{
+    width: 100px;
+}
+.paypal-card img,.apple-card img{
+    width: 200px;
+}
+.master-card h6,.paypal-card h6,.apple-card h6{
+    font-weight: 800;
+}
+.cancel-btn{
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #F9A719;
+    color: black;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: white;
+    border-radius: 10px;
+}
+.update-btn{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #3AA09A;
+    border-radius: 10px;
+}
+.promo-code-text{
+    font-weight: 800;
+
+}
+.sub-promo-code-text {
+    font-weight: 800;
+    font-size: 13px;
+}
+.price{
+    font-weight: 800;
+    font-size: 16px;
+}
+.subtotal-text{
+    font-weight: 600;
+    font-size: 16px;
+}
+.checkout-btn{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #F9A719;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+}
+.user-detail{
+    margin-left: auto;
+    width: 80%;
+    background-color: #EFEFEF;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.image-name{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.image-name img{
+    width: 100px;
+    height: 100px;
+}
+.image-name h6{
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.phone h6{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.phone p{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.email h6{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.email p{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.deli-address h6{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.deli-address p{
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.edit-customer-service{
+    margin: auto;
+}
+.edit-customer-service .fa-pen-to-square,.edit-customer-service .fa-headset{
+    font-size: 25px;
+}
+.edit-customer-service p{
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: 800;
+}

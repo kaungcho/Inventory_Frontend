@@ -7,7 +7,12 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import { CAccordion, CAccordionItem, CAccordionHeader, CAccordionBody,CFormCheck } from "@coreui/react";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
 const AllProduct = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, []);
     const navigate = useNavigate();
     const goToSingleProduct = () => {
         navigate('/single-product');

@@ -34,7 +34,7 @@ const ComboOffer = props => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <a href="" className="all-prodcuts d-flex justify-content-end" onClick={goToAllProduct}>
+                        <a href="#" className="all-prodcuts d-flex justify-content-end" onClick={goToAllProduct}>
                             <p>Go to all Products</p>
                             <FontAwesomeIcon icon={faArrowRightLong} />
                         </a>

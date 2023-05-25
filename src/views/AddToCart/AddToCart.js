@@ -4,15 +4,22 @@ import './AddToCart.css';
 import food1 from '../../images/food1.png';
 import food2 from '../../images/food2.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMinus, faPlus, faTrashCan } from "@fortawesome/free-solid-svg-icons";
-import user from '../../images/boy.png';
+import { faMinus, faPlus, faTrashCan, faPenToSquare, faHeadset } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+
 const AddToCart = () => {
+    const navigate = useNavigate();
+
+    const goToCheckOut = () => {
+        navigate('/checkout');
+    }
+
     return (
         <>
             <Navbar />
             <div className="container mt-5">
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-md-12">
                         <h2 className="shopping-cart-text">Shopping Cart (2 items)</h2>
                         <div className="d-flex mt-3">
                             <div className="product-image">
@@ -59,29 +66,7 @@ const AddToCart = () => {
                                 <h6 className="text-muted">Gst : $0.83</h6>
                             </div>
                             <div className="checkout-div">
-                                <button type="button">Proceed to checkout</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-5">
-                        <div className="card user-detail">
-                            <div className="card-body">
-                                <div className="d-flex justify-content-evenly image-name">
-                                    <div><img src={user} /></div>
-                                    <div className="pt-4"><h6>Kaung Myat Cho</h6></div>
-                                </div>
-                                <div className="phone">
-                                    <h6>Phone</h6>
-                                    <p className="text-muted">+95 976 973 4207</p>
-                                </div>
-                                <div className="email">
-                                    <h6>Email</h6>
-                                    <p className="text-muted">kaungcho2@gmail.com</p>
-                                </div>
-                                <div className="deli-address">
-                                    <h6>Delivery Address</h6>
-                                    <p className="text-muted">Yangon</p>
-                                </div>
+                                <button type="button" onClick={goToCheckOut}>Proceed to checkout</button>
                             </div>
                         </div>
                     </div>
