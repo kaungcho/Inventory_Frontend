@@ -1,3 +1,4 @@
+
 .shopping-cart-text{
     color: #3AA09A;
     font-weight: 700;
@@ -61,47 +62,4 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
-}
-.image-name{
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
-.image-name img{
-    width: 100px;
-    height: 100px;
-}
-.image-name h6{
-    font-weight: 700;
-    font-size: 14px;
-    
-}
-.phone h6{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 14px;
-}
-.phone p{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 13px;
-}
-.email h6{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 14px;
-}
-.email p{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 13px;
-}
-.deli-address h6{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 14px;
-}
-.deli-address p{
-    padding-left: 100px;
-    font-weight: 700;
-    font-size: 13px;
 }
