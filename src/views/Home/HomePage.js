@@ -77,10 +77,10 @@ const HomePage = () => {
         <CCol xs={12} className="homepage-column3">
           <CircleThree circleStyles={circleThreeStyles} />
         </CCol>
-        <CCol xs={12} className="homepage-column4">
+        {/* <CCol xs={12} className="homepage-column4">
           <ComboOffer />
-        </CCol>
-        <CCol xs={12} style={{ padding : '0',cursor : 'pointer' }} className="homepage-column5" onClick={goToAllProduct}>
+        </CCol> */}
+        <CCol xs={12} style={{ padding : '0',cursor : 'pointer' }} className="homepage-column5 mt-5" onClick={goToAllProduct}>
           <div className="d-flex justify-content-center" style={goToProducts}>
             <p style={goToProductText}>Go to all Products</p>
             <FontAwesomeIcon icon={faArrowRightLong} style={arrowIcon} />
