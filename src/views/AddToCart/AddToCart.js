@@ -1,4 +1,4 @@
-import React  from "react";
+import React,{ useContext }  from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import './AddToCart.css';
 import food1 from '../../images/food1.png';
@@ -6,14 +6,16 @@ import food2 from '../../images/food2.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus, faTrashCan, faPenToSquare, faHeadset } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import CartContext from "../../constants/context";
 
 const AddToCart = () => {
     const navigate = useNavigate();
-
+    const {addToCart,cartItems} = useContext(CartContext);
     const goToCheckOut = () => {
         navigate('/checkout');
     }
-
+    console.log(cartItems);
     return (
         <>
             <Navbar />
