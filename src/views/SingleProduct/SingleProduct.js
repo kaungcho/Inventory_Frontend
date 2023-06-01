@@ -25,8 +25,8 @@ const SingleProduct = () => {
     fetchData();
   },[]);
   const {singleProductList} = useSelector(state => state.product);
-  const AddToCart = (id) => {
-    addToCart(id,1);
+  const AddToCart = (id,name,price) => {
+    addToCart(id,1,name,price);
     navigate("/add-to-cart");
   };
 
@@ -66,13 +66,13 @@ const SingleProduct = () => {
               <h2 className="product-name">
                 {singleProductList.name}
               </h2>
-              <h1 className="sale-price">$ {singleProductList.amount}</h1>
+              <h1 className="sale-price">$ {singleProductList.price}</h1>
               <del className="original-price ms-3">$150</del>
               <p className="product-description">
                 {singleProductList.product_description}
               </p>
               <div className="add-to-cart-div d-flex mt-5">
-                <button type="button" className="add-to-cart" onClick={() => {AddToCart(singleProductList.id)}}>
+                <button type="button" className="add-to-cart" onClick={() => {AddToCart(singleProductList.id,singleProductList.name,singleProductList.price)}}>
                   Add to Bag
                 </button>
                 <div className="icon ps-5">
