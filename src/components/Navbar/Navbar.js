@@ -25,7 +25,7 @@ const Navbar = () => {
           />
           <CCollapse className="navbar-collapse" visible={visible}>
             <CNavbarNav component="nav">
-              <CNavLink href="#" className="px-4" active>
+              {/* <CNavLink href="#" className="px-4" active>
                 About Us
               </CNavLink>
               <CNavLink href="#" className="px-4">
@@ -33,9 +33,9 @@ const Navbar = () => {
               </CNavLink>
               <CNavLink href="#" className="px-4">
                 Products
-              </CNavLink>
+              </CNavLink> */}
               <CNavLink href="#" className="px-4">
-                Contact Us
+                Inventory
               </CNavLink>
             </CNavbarNav>
             <CNavbarNav component="nav" className="navbar-nav-2">

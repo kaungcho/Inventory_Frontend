@@ -25,14 +25,14 @@ const Sitebar = (props) => {
       <CSidebar style={styles} className='shadow-lg'>
         <CSidebarBrand>Sidebar Brand</CSidebarBrand>
         <CSidebarNav>
-          <CNavItem href="#">About Us</CNavItem>
+          {/* <CNavItem href="#">About Us</CNavItem>
           <CNavItem href="#">Our Service</CNavItem>
           <CNavGroup toggler="Product">
             <CNavItem href="#">Baole Dessert</CNavItem>
             <CNavItem href="#">Skinlogic</CNavItem>
             <CNavItem href="#">Cheryl & Co</CNavItem>
-          </CNavGroup>
-          <CNavItem href="#">Contact Us</CNavItem>
+          </CNavGroup> */}
+          <CNavItem href="#">Inventory</CNavItem>
         </CSidebarNav>
         <CSidebarFooter>
           <div className="d-flex flex-row">
